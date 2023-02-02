@@ -2,6 +2,7 @@
 
 require 'rspec/core'
 require 'rspec/retry_configuration'
+require 'rspec/retry/formatter'
 require 'rspec/retry_message'
 require 'rspec/flakey_spec'
 require 'rspec/retry/version'
