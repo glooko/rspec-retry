@@ -18,7 +18,7 @@ module RSpec
     end
 
     def as_json
-      { attempts:, retry_count:, location:, messages: }
+      { attempts: attempts, retry_count: retry_count, location: location, messages: messages }
     end
   end
 end
